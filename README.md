@@ -1,19 +1,6 @@
-Easy Start Project
-===============
+Portfolio project
+=================
 
-Simple project which is boilerplate for even simpler sites written in HTML/CSS/JS.
+Based on my own EasyStart boilerplate: https://github.com/sosek108/easystart.
+Some fancy stuff will be here.
 
-First run
----------
-* ```` npm install ````
-
-Fancy stuff inside
-------------------
-1. ``npm`` with ``gulp``
-2. ``PostCSS``
-
-Requirements
-------------
-1. Of course ``node`` for ``npm``
-
-Should I add routing behaviour?
