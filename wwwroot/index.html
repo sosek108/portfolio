@@ -3,8 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Hubert Sosiński - Curiculum Vitae</title>
+    <style media="screen">
+        body {
+          margin:0; padding:0;
+        }
+        .background {
+            position: fixed;
+            top:0;
+            height: 100%;
+            width: 100%;
+            opacity: 0.45;
+            filter: grayscale(100%);
+        }
+        #content {
+          position: relative;
+          width: 80vw;
+          max-width: 1024px;
+          display: block;
+          margin: auto;
+        }
+        section {
+          width: 100%;
+          background-color: white;
+          height: 50vh;
+          margin-bottom: 20px;
+        }
+    </style>
   </head>
   <body>
-    Tekst
+    <div class="background" id="container">
+      <div class="Background" id="output"></div>
+    </div>
+    <div class="" id="content">
+      <section>
+        test
+      </section>
+      <section>
+        aloha!
+      </section>
+    </div>
+    <script src="js/triangles.js" charset="utf-8"></script>
   </body>
 </html>
