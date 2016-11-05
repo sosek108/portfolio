@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@import 'background.css';
+
+#content {
+  position: relative;
+  width: 80vw;
+  max-width: 1024px;
+  display: block;
+  margin: auto;
+  section {
+    width: 100%;
+    background-color: white;
+    height: 50vh;
+    margin-bottom: 20px;
+  }
+}

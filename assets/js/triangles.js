@@ -1598,8 +1598,8 @@ FSS.SVGRenderer.prototype.formatStyle = function(color) {
   // Global Properties
   //------------------------------
   var center = FSS.Vector3.create();
-  var container = document.getElementById('container');
-  var output = document.getElementById('output');
+  var container = document.getElementById('bg-container');
+  var output = document.getElementById('bg-output');
   var renderer, scene, mesh, geometry, material;
   var webglRenderer, canvasRenderer, svgRenderer;
   var gui;
