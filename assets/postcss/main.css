@@ -1,20 +1,33 @@
+:root {
+  --header-primary: blue;
+  --header-secondary: lightblue;
+}
 body {
   margin: 0;
   padding: 0;
 }
 
-@import 'background.css';
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+h1 {
+  color: var(--header-primary);
+}
+h2 {
+  color: var(--header-secondary);
+}
 
-#content {
-  position: relative;
-  width: 80vw;
+.full-width {
+  width: 100%;
+}
+
+.standard-width {
+  width: 80%;
   max-width: 1024px;
-  display: block;
   margin: auto;
-  section {
-    width: 100%;
-    background-color: white;
-    height: 50vh;
-    margin-bottom: 20px;
-  }
+}
+
+.circle {
+  border-radius: 50%
 }
