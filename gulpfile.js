@@ -11,6 +11,7 @@ gulp.task('css', function () {
         ]))
         .pipe(gulp.dest('./wwwroot/css/'));
 });
+
 gulp.task('watch', function() {
     gulp.watch('assets/postcss/*', ['css'])
-})
+});
