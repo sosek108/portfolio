@@ -1,20 +1,24 @@
 @import 'fonts.css';
 @import 'main.css';
 @import 'background.css';
-
+@import 'menu.css';
 #content {
   position: relative;
   section {
     background-color: var(--bg-color-primary);
     height: 50vh;
     margin-bottom: 20px;
+    .inner {
+      margin: 20px 20px;
+    }
   }
   h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 3em;
     padding-top: 16px;
-    box-shadow: 0px 2px 5px var(--color-tertiary)
+    box-shadow: 0px 2px 5px var(--color-tertiary);
+    margin-bottom: 0;
   }
 }
 
@@ -47,28 +51,5 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  #header {
-    flex-direction: column;
-    h1 {
-      font-size: 3em;
-      text-align: center;
-    }
-    h2 {
-      font-size: 1.3em;
-      text-align: center;
-    }
-  }
-}
-
-@media screen and (min-width: 451px) and (max-width: 620px) {
-  #header {
-    height: 70vh;
-    h1 {
-      font-size: 2.5em;
-    }
-    h2 {
-      font-size: 1.3em;
-    }
-  }
-}
+@import "smartphone-landscape.css";
+@import "smartphone-portrait.css";

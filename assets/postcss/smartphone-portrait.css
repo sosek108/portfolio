@@ -1,0 +1,16 @@
+@media screen and (max-width: 450px) {
+  #header {
+    flex-direction: column;
+    h1 {
+      font-size: 3em;
+      text-align: center;
+    }
+    h2 {
+      font-size: 1.3em;
+      text-align: center;
+    }
+    .inner {
+      margin-left: 0;
+    }
+  }
+}
