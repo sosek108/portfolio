@@ -2,6 +2,7 @@
   position: fixed;
   top: 0;
   height: 100vh;
-  opacity: 0.6;
+  opacity: 0.45;
   filter: grayscale(100%);
+  /*background-color: lightblue;*/
 }

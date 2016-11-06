@@ -1,11 +1,14 @@
 :root {
-  --header-primary: #0A4CFF;
+  --header-primary: rgb(82,139,255);
   --header-secondary: #444;
-  --bg-color-primary: #F3F4F8;
+  --bg-color-primary: white;
+  --color-primary: #444;
+  --color-secondary: rgb(130,137,151);
 }
 body {
   margin: 0;
   padding: 0;
+  color: var(--color-primary);
 }
 
 h1, h2 {
@@ -24,11 +27,17 @@ h2 {
 }
 
 .standard-width {
-  width: 80%;
-  max-width: 1024px;
+  width: 97%;
+  max-width: 1500px;
   margin: auto;
 }
 
 .circle {
   border-radius: 50%
+}
+
+@media screen and (max-width:800px) {
+  .standard-width {
+    width: 100%;
+  }
 }
