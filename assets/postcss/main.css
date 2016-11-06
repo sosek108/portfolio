@@ -4,6 +4,7 @@
   --bg-color-primary: white;
   --color-primary: #444;
   --color-secondary: rgb(130,137,151);
+  --color-tertiary: rgb(198, 212, 240);
 }
 body {
   margin: 0;
