@@ -13,4 +13,9 @@
       margin-left: 0;
     }
   }
+  #content {
+    h1 {
+      font-size: 1.6em;
+    }
+  }
 }
